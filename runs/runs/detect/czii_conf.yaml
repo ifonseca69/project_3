@@ -1,0 +1,13 @@
+# Change this to the absolute path or relative path of your local dataset
+path: '/content/drive/My Drive/project3/czii-cryo-et-object-identification/datasets/czii_det2d'
+train: images/train # train images (relative to 'path') 
+val: images/val # val images (relative to 'path') 
+
+# Classes
+names:
+  0: apo-ferritin
+  1: beta-amylase
+  2: beta-galactosidase
+  3: ribosome
+  4: thyroglobulin
+  5: virus-like-particle
